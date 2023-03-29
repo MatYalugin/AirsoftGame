@@ -3,11 +3,14 @@ using UnityEngine.UI;
 
 public class GrenadeThrow : MonoBehaviour
 {
+    public Animator playerAnimator;
+    public string throwAnim;
+    public string inspectionAnim;
     public GameObject grenadePrefab;
     public float throwForce = 30f;
     public float throwAngle = 35f;
     public AudioSource throwSound;
-    public int grenadesInt = 3;
+    public int grenadesInt = 1;
     public GameObject grenadeGO;
     public Text grenadesIntText;
     private bool readyToThrow = true;
@@ -17,18 +20,19 @@ public class GrenadeThrow : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && grenadesInt != 0 && readyToThrow == true)
         {
-            ThrowGrenade();
+            playerAnimator.Play(throwAnim);
+            Invoke("ThrowGrenade", 0.8f);
         }
-        if(grenadesInt == 0)
+        if (Input.GetKeyDown(KeyCode.F) && grenadesInt != 0 && playerAnimator.GetCurrentAnimatorStateInfo(0).IsName(throwAnim) == false)
         {
-            grenadeGO.SetActive(false);
+            Inspection();
         }
 
         grenadesIntText.text = "               " + grenadesInt + "x";
     }
 
-    void ThrowGrenade()
-    {
+    public void ThrowGrenade()
+    { 
         Invoke("makeReadyToThrow", 3);
         readyToThrow = false;
         GameObject grenade = Instantiate(grenadePrefab, transform.position, Quaternion.identity);
@@ -41,6 +45,15 @@ public class GrenadeThrow : MonoBehaviour
         rb.AddForce(throwDirection * throwForce, ForceMode.Impulse);
         throwSound.Play();
         grenadesInt -= 1;
+        if (grenadesInt == 0)
+        {
+            grenadeGO.SetActive(false);
+        }
+    }
+
+    public void Inspection()
+    {
+        playerAnimator.Play(inspectionAnim);
     }
     public void makeReadyToThrow()
     {

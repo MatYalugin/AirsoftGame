@@ -436,6 +436,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1473128705, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
   m_PrefabInstance: {fileID: 908520697}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &444144449 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7556458370523450683, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+  m_PrefabInstance: {fileID: 908520697}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0279a7f67034b84488bac15c5a62b619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &473060351
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,7 +1802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1473128705, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1473128706, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1857,6 +1868,10 @@ PrefabInstance:
       propertyPath: fireModeText
       value: 
       objectReference: {fileID: 1655810432}
+    - target: {fileID: 3013729616722905444, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3357148753266908294, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1949,6 +1964,10 @@ PrefabInstance:
       propertyPath: fireModeText
       value: 
       objectReference: {fileID: 1655810432}
+    - target: {fileID: 5642346538828196875, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7556458370523450683, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
       propertyPath: grenadesIntText
       value: 
@@ -1961,6 +1980,30 @@ PrefabInstance:
       propertyPath: fireModeText
       value: 
       objectReference: {fileID: 1655810432}
+    - target: {fileID: 8002889139111579960, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.212779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002889139111579960, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9171758
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002889139111579960, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.41488
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002889139111579960, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002889139111579960, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002889139111579960, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8873744286702725079, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3047,6 +3090,10 @@ PrefabInstance:
       propertyPath: cursorOnGO
       value: 
       objectReference: {fileID: 473060351}
+    - target: {fileID: 437484733276210145, guid: f64bbe05526dc3947a4c080f9f7d72ee, type: 3}
+      propertyPath: weaponGrenade
+      value: 
+      objectReference: {fileID: 444144449}
     - target: {fileID: 437484733276210145, guid: f64bbe05526dc3947a4c080f9f7d72ee, type: 3}
       propertyPath: playerAnimator
       value: 

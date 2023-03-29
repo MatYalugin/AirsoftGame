@@ -17,7 +17,7 @@ public class FirstPersonMovement : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown(runningKey))
+        if (Input.GetKeyDown(runningKey) && (gameObject.GetComponent<ChangeWeapon>().enabled == true))
         {
             gameObject.GetComponent<Player>().playerAnimator.Play("Moving");
         }

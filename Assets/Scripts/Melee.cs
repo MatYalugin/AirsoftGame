@@ -14,14 +14,17 @@ public class Melee : MonoBehaviour
     public float distance = 2f;
     public Text ammoText;
     public Text fireModeText;
+    private bool isReadyToKick = true;
     private void Start()
     {
         mainCamera = Camera.main;
     }
     public void Kick()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && isReadyToKick == true)
         {
+            isReadyToKick = false;
+            Invoke("allowToKick", 0.6f);
             playerAnimator.Play(kickAnimName);
             audioSource.Play();
             RaycastHit hit;
@@ -57,6 +60,10 @@ public class Melee : MonoBehaviour
         {
             playerAnimator.Play(inspectionAnimName);
         }
+    }
+    public void allowToKick()
+    {
+        isReadyToKick = true;
     }
     private void Update()
     {
