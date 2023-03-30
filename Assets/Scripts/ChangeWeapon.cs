@@ -7,6 +7,7 @@ public class ChangeWeapon : MonoBehaviour
     public GameObject activeWeapon;
     public GameObject knife;
     public GameObject grenade;
+    public GameObject smokeGrenade;
     public GameObject pistol;
     public GameObject rifle;
     //kit1
@@ -60,6 +61,15 @@ public class ChangeWeapon : MonoBehaviour
                 activeWeapon.SetActive(false);
             }
             activeWeapon = grenade;
+            activeWeapon.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha5) && smokeGrenade != null)
+        {
+            if (activeWeapon != null)
+            {
+                activeWeapon.SetActive(false);
+            }
+            activeWeapon = smokeGrenade;
             activeWeapon.SetActive(true);
         }
     }

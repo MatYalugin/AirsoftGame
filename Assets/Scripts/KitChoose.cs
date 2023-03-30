@@ -7,7 +7,6 @@ public class KitChoose : MonoBehaviour
     public GameObject activeWeaponKit1;
     public GameObject activeWeaponKit2;
     public GameObject activeWeaponKit3;
-    public MonoBehaviour weaponGrenade;
     public Animator playerAnimator;
     public GameObject chooseKitMenu;
     public GameObject playerGO;
@@ -60,7 +59,6 @@ public class KitChoose : MonoBehaviour
         chooseKitMenu.SetActive(false);
         playerAnimator.Play("ActiveWeapon_weaponOff");
         playerCameraGO.GetComponent<FirstPersonLook>().lookOn();
-        weaponGrenade.GetComponent<GrenadeThrow>().enabled = true;
         if (isCursorOnGO == true)
         {
             Destroy(cursorOnGO);

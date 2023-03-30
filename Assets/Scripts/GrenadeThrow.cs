@@ -20,6 +20,7 @@ public class GrenadeThrow : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && grenadesInt != 0 && readyToThrow == true)
         {
+            readyToThrow = false;
             playerAnimator.Play(throwAnim);
             Invoke("ThrowGrenade", 0.8f);
         }
@@ -34,7 +35,6 @@ public class GrenadeThrow : MonoBehaviour
     public void ThrowGrenade()
     { 
         Invoke("makeReadyToThrow", 3);
-        readyToThrow = false;
         GameObject grenade = Instantiate(grenadePrefab, transform.position, Quaternion.identity);
         Rigidbody rb = grenade.GetComponent<Rigidbody>();
 
