@@ -10,19 +10,17 @@ public class FirstPersonMovement : MonoBehaviour
     public bool IsRunning { get; private set; }
     public float runSpeed = 9;
     public KeyCode runningKey = KeyCode.LeftShift;
-    private bool onGrenadeThrow;
-
     Rigidbody rigidbody;
     /// <summary> Functions to override movement speed. Will use the last added override. </summary>
     public List<System.Func<float>> speedOverrides = new List<System.Func<float>>();
 
     public void Update()
     {
-        if (Input.GetKeyDown(runningKey) && (gameObject.GetComponent<ChangeWeapon>().enabled == true) && onGrenadeThrow == false)
+        if (Input.GetKeyDown(runningKey) && (gameObject.GetComponent<ChangeWeapon>().enabled == true))
         {
             gameObject.GetComponent<Player>().playerAnimator.Play("Moving");
         }
-        if (Input.GetKeyUp(runningKey) && gameObject.GetComponent<Player>().playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Moving") && onGrenadeThrow == false)
+        if (Input.GetKeyUp(runningKey) && gameObject.GetComponent<Player>().playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Moving"))
         {
             gameObject.GetComponent<Player>().playerAnimator.Play("MovingOff");
         }
