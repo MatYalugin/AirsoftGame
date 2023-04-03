@@ -5821,8 +5821,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7570224439095281583}
   m_LocalRotation: {x: -5.2410156e-21, y: -4.5474735e-13, z: -1.7763568e-15, w: 1}
-  m_LocalPosition: {x: 0.20775977, y: -0.1740051, z: 0.4660479}
-  m_LocalScale: {x: 0.4980746, y: 0.4980746, z: 0.4980746}
+  m_LocalPosition: {x: 0.208, y: -0.191, z: 0.475}
+  m_LocalScale: {x: 0.53839105, y: 0.53839105, z: 0.6192574}
   m_Children:
   - {fileID: 7570224439598014882}
   - {fileID: 7570224438086178269}
@@ -7686,7 +7686,7 @@ Transform:
   m_GameObject: {fileID: 7570224440076201622}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 9.371, y: 1.129, z: 30.661}
-  m_LocalScale: {x: 0.715845, y: 0.65, z: 0.65}
+  m_LocalScale: {x: 0.75, y: 0.65, z: 0.6}
   m_Children:
   - {fileID: 7570224438355477417}
   - {fileID: 7570224438481517608}
@@ -7754,8 +7754,8 @@ MonoBehaviour:
   distance: 100
   checkSpaceDistance: 20
   playerGO: {fileID: 0}
-  checkDelay: 0.4
-  attackDelay: 2
+  checkDelay: 0.1
+  attackDelay: 1
   counter: 0
 --- !u!195 &7570224440076201619
 NavMeshAgent:

@@ -16653,7 +16653,7 @@ MonoBehaviour:
   throwAnim: ThrowSmokeGrenade
   inspectionAnim: InspectionSmokeGrenade
   grenadePrefab: {fileID: 1512603409255574146, guid: 2c72a2d349f12cb4fac800294a63675f, type: 3}
-  throwForce: 20
+  throwForce: 10
   throwAngle: 10
   throwSound: {fileID: 7290018225760196728}
   grenadesInt: 1
@@ -22463,7 +22463,7 @@ MonoBehaviour:
   throwAnim: ThrowFragGrenade
   inspectionAnim: InspectionFragGrenade
   grenadePrefab: {fileID: 4650575896090704843, guid: 7b053ba1ce2d0e942a7e35bbb84b7e57, type: 3}
-  throwForce: 20
+  throwForce: 10
   throwAngle: 10
   throwSound: {fileID: 4525550593893914025}
   grenadesInt: 1
