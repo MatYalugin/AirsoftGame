@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour
     public float attackDelay;
     public float counter;
     bool allowToCheckPlayer = true;
-    private float ammo = 10f;
+    private float ammo = 30f;
     private void Start()
     {
         tag = "Enemy";

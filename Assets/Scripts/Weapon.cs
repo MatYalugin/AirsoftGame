@@ -27,6 +27,8 @@ public class Weapon : MonoBehaviour
     public float hitChance = 0.7f;
     public string aimOnAnimName;
     public string aimOffAnimName;
+
+    private GameObject EnemyGO;
     private void Start()
     {
         mainCamera = Camera.main;
@@ -59,21 +61,21 @@ public class Weapon : MonoBehaviour
                             hit.transform.GetComponent<EnemyDeath>().Hurt(damage);
                         }
                     }
-                }
-                if (hit.transform.tag.Equals("Head"))
-                {
-                    if (Random.value < hitChance)
+                    if (hit.transform.tag.Equals("Head"))
                     {
-                        hit.transform.GetComponent<EnemyHead>().headHurt(damage);
+                        if (Random.value < hitChance)
+                        {
+                            hit.transform.GetComponent<EnemyHead>().headHurt(damage);
+                        }
                     }
-                }
-                if (hit.transform.tag.Equals("Limb"))
-                {
-                    if (Random.value < hitChance)
+                    if (hit.transform.tag.Equals("Limb"))
                     {
-                        hit.transform.GetComponent<EnemyArmLeg>().limbHurt(damage);
+                        if (Random.value < hitChance)
+                        {
+                            hit.transform.GetComponent<EnemyArmLeg>().limbHurt(damage);
+                        }
                     }
-                }
+                }    
             }
         }
         if (isAutomatic == false)

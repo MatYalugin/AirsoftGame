@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapContainers.unity
     guid: 380b0e2489e10cc48b8eae375cb52142
+  - enabled: 1
+    path: Assets/Scenes/MapTireArena.unity
+    guid: fab8d436123a9314c82db7d857c674a7
   m_configObjects: {}

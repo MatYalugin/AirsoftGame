@@ -19,6 +19,7 @@ public class ChangeWeapon : MonoBehaviour
     //kit3
     public GameObject pistolKit3;
     public GameObject rifleKit3;
+    public bool withoutGrenades;
 
     private void Start()
     {
@@ -54,7 +55,7 @@ public class ChangeWeapon : MonoBehaviour
             activeWeapon = rifle;
             activeWeapon.SetActive(true);
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && grenade != null)
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && grenade != null && withoutGrenades == false)
         {
             if (activeWeapon != null)
             {
@@ -63,7 +64,7 @@ public class ChangeWeapon : MonoBehaviour
             activeWeapon = grenade;
             activeWeapon.SetActive(true);
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha5) && smokeGrenade != null)
+        else if (Input.GetKeyDown(KeyCode.Alpha5) && smokeGrenade != null && withoutGrenades == false)
         {
             if (activeWeapon != null)
             {
