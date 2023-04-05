@@ -25,8 +25,6 @@ public class Weapon : MonoBehaviour
     public bool isAutomatic;
     public bool fireModeChangeable;
     public float hitChance = 0.7f;
-    public string aimOnAnimName;
-    public string aimOffAnimName;
 
     private GameObject EnemyGO;
     private void Start()

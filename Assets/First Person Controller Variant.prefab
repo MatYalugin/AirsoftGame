@@ -944,8 +944,6 @@ MonoBehaviour:
   isAutomatic: 1
   fireModeChangeable: 1
   hitChance: 0.6
-  aimOnAnimName: 
-  aimOffAnimName: 
 --- !u!1 &2058032589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,8 +1007,6 @@ MonoBehaviour:
   isAutomatic: 0
   fireModeChangeable: 0
   hitChance: 0.3
-  aimOnAnimName: 
-  aimOffAnimName: 
 --- !u!1 &182874661288869492
 GameObject:
   m_ObjectHideFlags: 0
@@ -11053,8 +11049,6 @@ MonoBehaviour:
   isAutomatic: 1
   fireModeChangeable: 1
   hitChance: 0.6
-  aimOnAnimName: 
-  aimOffAnimName: 
 --- !u!1 &1696878803720794261
 GameObject:
   m_ObjectHideFlags: 0
@@ -11118,8 +11112,6 @@ MonoBehaviour:
   isAutomatic: 0
   fireModeChangeable: 1
   hitChance: 0.3
-  aimOnAnimName: 
-  aimOffAnimName: 
 --- !u!1 &2002327763366024379
 GameObject:
   m_ObjectHideFlags: 0
@@ -22317,8 +22309,6 @@ MonoBehaviour:
   isAutomatic: 0
   fireModeChangeable: 0
   hitChance: 0.4
-  aimOnAnimName: 
-  aimOffAnimName: 
 --- !u!1 &5139751926321057441
 GameObject:
   m_ObjectHideFlags: 0
@@ -28501,12 +28491,12 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60
   orthographic: 0
   orthographic size: 5
-  m_Depth: 0
+  m_Depth: 0.5
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 63
@@ -34140,8 +34130,6 @@ MonoBehaviour:
   isAutomatic: 1
   fireModeChangeable: 1
   hitChance: 0.5
-  aimOnAnimName: 
-  aimOffAnimName: 
 --- !u!1 &9043954871170458936
 GameObject:
   m_ObjectHideFlags: 0
@@ -35166,7 +35154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5256384803381100468, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
       propertyPath: m_ClearFlags
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5256384803381100468, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
       propertyPath: near clip plane
