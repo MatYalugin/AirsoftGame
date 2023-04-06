@@ -18,6 +18,7 @@ public class Weapon : MonoBehaviour
     public AudioSource AudioSource;
     public float ammo;
     public float maxAmmo;
+    public float magazines = 3;
     public Text AmmoText;
     public Text fireModeText;
     public float firingDelay;
@@ -141,11 +142,12 @@ public class Weapon : MonoBehaviour
     }
     public void Reload()
     {
-        if (Input.GetKey(KeyCode.R) && ammo != maxAmmo)
+        if (Input.GetKey(KeyCode.R) && ammo != maxAmmo && magazines != 0)
         {
             playerAnimator.Play(reloadAnimName);
             ammo = maxAmmo;
             AmmoText.text = "Ammo: " + ammo;
+            magazines -= 1;
         }
     }
     public void Inspection()
@@ -172,7 +174,7 @@ public class Weapon : MonoBehaviour
         {
             fireModeText.text = "Fire mode - semi";
         }
-        AmmoText.text = "Ammo: " + ammo;
+        AmmoText.text = "Ammo: " + ammo + "/" + magazines + "x";
     }
 }
 

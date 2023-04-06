@@ -937,6 +937,7 @@ MonoBehaviour:
   AudioSource: {fileID: 1050367699}
   ammo: 90
   maxAmmo: 90
+  magazines: 3
   AmmoText: {fileID: 0}
   fireModeText: {fileID: 0}
   firingDelay: 0.14
@@ -1000,6 +1001,7 @@ MonoBehaviour:
   AudioSource: {fileID: 45946820}
   ammo: 20
   maxAmmo: 20
+  magazines: 3
   AmmoText: {fileID: 0}
   fireModeText: {fileID: 0}
   firingDelay: 0.18
@@ -11042,6 +11044,7 @@ MonoBehaviour:
   AudioSource: {fileID: 6877521198955974473}
   ammo: 90
   maxAmmo: 90
+  magazines: 3
   AmmoText: {fileID: 0}
   fireModeText: {fileID: 0}
   firingDelay: 0.12
@@ -11105,6 +11108,7 @@ MonoBehaviour:
   AudioSource: {fileID: 2196268533236077850}
   ammo: 30
   maxAmmo: 30
+  magazines: 3
   AmmoText: {fileID: 0}
   fireModeText: {fileID: 0}
   firingDelay: 0.18
@@ -22272,6 +22276,7 @@ MonoBehaviour:
   AudioSource: {fileID: 6099127955820484113}
   ammo: 8
   maxAmmo: 8
+  magazines: 3
   AmmoText: {fileID: 0}
   fireModeText: {fileID: 0}
   firingDelay: 0.2
@@ -34093,6 +34098,7 @@ MonoBehaviour:
   AudioSource: {fileID: 5847646789086604308}
   ammo: 30
   maxAmmo: 30
+  magazines: 3
   AmmoText: {fileID: 0}
   fireModeText: {fileID: 0}
   firingDelay: 0.12
