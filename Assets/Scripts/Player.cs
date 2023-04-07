@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
         Health = Health - damage;
         if (Health <= 0)
         {
-            if (Random.value < 0.1f)
+            if (Random.value < 0.05f)
             {
                 cheatMenu.SetActive(true);
                 Cursor.lockState = CursorLockMode.None;
