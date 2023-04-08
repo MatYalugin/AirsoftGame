@@ -141,6 +141,6 @@ public class Enemy : MonoBehaviour
     }
     public void makeAmmoFull()
     {
-        ammo = 10f;
+        ammo = 30f;
     }
 }
