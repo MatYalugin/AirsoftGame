@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapForestPolyana.unity
     guid: ba3b68b5639938d4ba7348178bd3213a
+  - enabled: 1
+    path: Assets/Scenes/MapPolygon3.unity
+    guid: ba6315588341b37479379c3ebc761ae4
   m_configObjects: {}
