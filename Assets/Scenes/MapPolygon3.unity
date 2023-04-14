@@ -936,7 +936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  requiredScore: 3
+  requiredScore: 5
   wonMenu: {fileID: 292135520}
   playerAnimator: {fileID: 1898086714}
   cursor: {fileID: 1471343105}
