@@ -14,7 +14,7 @@ public class KitChoose : MonoBehaviour
     public GameObject playButton;
     public bool isCursorOnGO;
     public GameObject cursorOnGO;
-    public AudioListener playerAudioListener;
+    public AudioSource playerStepAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -60,7 +60,7 @@ public class KitChoose : MonoBehaviour
         chooseKitMenu.SetActive(false);
         playerAnimator.Play("ActiveWeapon_weaponOff");
         playerCameraGO.GetComponent<FirstPersonLook>().lookOn();
-        playerAudioListener.enabled = true;
+        playerStepAudio.enabled = true;
         if (isCursorOnGO == true)
         {
             Destroy(cursorOnGO);

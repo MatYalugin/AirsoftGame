@@ -1711,6 +1711,11 @@ AudioListener:
   m_CorrespondingSourceObject: {fileID: 1503786735477420703, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
   m_PrefabInstance: {fileID: 865060743}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &865060745 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 132946888499008193, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+  m_PrefabInstance: {fileID: 865060743}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &928248743
 GameObject:
   m_ObjectHideFlags: 0
@@ -2516,6 +2521,10 @@ PrefabInstance:
       propertyPath: playerCameraGO
       value: 
       objectReference: {fileID: 1539634139}
+    - target: {fileID: 437484733276210145, guid: f64bbe05526dc3947a4c080f9f7d72ee, type: 3}
+      propertyPath: playerStepAudio
+      value: 
+      objectReference: {fileID: 865060745}
     - target: {fileID: 437484733276210145, guid: f64bbe05526dc3947a4c080f9f7d72ee, type: 3}
       propertyPath: activeWeaponKit1
       value: 
