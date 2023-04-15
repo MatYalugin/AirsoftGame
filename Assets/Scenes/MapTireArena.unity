@@ -3143,6 +3143,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+--- !u!81 &762557919 stripped
+AudioListener:
+  m_CorrespondingSourceObject: {fileID: 1503786735477420703, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+  m_PrefabInstance: {fileID: 762557918}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &810838398 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2550463727306718371, guid: 535c6f6087accf04596257346db6d70e, type: 3}
@@ -5173,6 +5178,10 @@ PrefabInstance:
       propertyPath: weaponSmokeGrenade
       value: 
       objectReference: {fileID: 220866045}
+    - target: {fileID: 437484733276210145, guid: f64bbe05526dc3947a4c080f9f7d72ee, type: 3}
+      propertyPath: playerAudioListener
+      value: 
+      objectReference: {fileID: 762557919}
     - target: {fileID: 1304437071768069622, guid: f64bbe05526dc3947a4c080f9f7d72ee, type: 3}
       propertyPath: m_IsActive
       value: 1

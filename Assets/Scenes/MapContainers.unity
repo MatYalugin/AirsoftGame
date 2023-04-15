@@ -2384,6 +2384,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0279a7f67034b84488bac15c5a62b619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!81 &908520703 stripped
+AudioListener:
+  m_CorrespondingSourceObject: {fileID: 1503786735477420703, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+  m_PrefabInstance: {fileID: 908520697}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &908520707 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 3373359150072738356, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
@@ -3484,6 +3489,10 @@ PrefabInstance:
       propertyPath: weaponSmokeGrenade
       value: 
       objectReference: {fileID: 908520702}
+    - target: {fileID: 437484733276210145, guid: f64bbe05526dc3947a4c080f9f7d72ee, type: 3}
+      propertyPath: playerAudioListener
+      value: 
+      objectReference: {fileID: 908520703}
     - target: {fileID: 7344915028781583959, guid: f64bbe05526dc3947a4c080f9f7d72ee, type: 3}
       propertyPath: m_Name
       value: ChooseKitMenu

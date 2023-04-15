@@ -1706,6 +1706,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+--- !u!81 &865060744 stripped
+AudioListener:
+  m_CorrespondingSourceObject: {fileID: 1503786735477420703, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+  m_PrefabInstance: {fileID: 865060743}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &928248743
 GameObject:
   m_ObjectHideFlags: 0
@@ -2527,6 +2532,10 @@ PrefabInstance:
       propertyPath: weaponSmokeGrenade
       value: 
       objectReference: {fileID: 1918352003}
+    - target: {fileID: 437484733276210145, guid: f64bbe05526dc3947a4c080f9f7d72ee, type: 3}
+      propertyPath: playerAudioListener
+      value: 
+      objectReference: {fileID: 865060744}
     - target: {fileID: 7344915028781583959, guid: f64bbe05526dc3947a4c080f9f7d72ee, type: 3}
       propertyPath: m_Name
       value: ChooseKitMenu
