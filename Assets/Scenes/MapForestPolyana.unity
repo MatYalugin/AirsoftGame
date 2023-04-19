@@ -1609,6 +1609,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7556458370523450683, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
+      propertyPath: grenadesInt
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7556458370523450683, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
       propertyPath: grenadesIntText
       value: 
       objectReference: {fileID: 1761295625}

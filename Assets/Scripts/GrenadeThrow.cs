@@ -34,7 +34,7 @@ public class GrenadeThrow : MonoBehaviour
 
     public void ThrowGrenade()
     { 
-        Invoke("makeReadyToThrow", 3);
+        Invoke("makeReadyToThrow", 2.5f);
         GameObject grenade = Instantiate(grenadePrefab, transform.position, Quaternion.identity);
         Rigidbody rb = grenade.GetComponent<Rigidbody>();
 
