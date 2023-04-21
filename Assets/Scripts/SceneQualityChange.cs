@@ -2,8 +2,9 @@
 
 public class SceneQualityChange : MonoBehaviour
 {
+    public int level;
     void Start()
     {
-        QualitySettings.SetQualityLevel(QualitySettings.GetQualityLevel());
+        QualitySettings.SetQualityLevel(level);
     }
 }
