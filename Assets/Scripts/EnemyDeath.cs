@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyDeath : MonoBehaviour
 {
-    private float health = 10;
+    private float health = 12;
     private GameObject cheatManagerGO;
 
     public void Hurt(float damage)
