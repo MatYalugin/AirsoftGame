@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StrongBricks.unity
     guid: 87299d9b73ab02f478fd81116645d3dd
+  - enabled: 1
+    path: Assets/Scenes/CQB_A.unity
+    guid: fbb90e0e08313e646868d81c2287cf64
   m_configObjects: {}
