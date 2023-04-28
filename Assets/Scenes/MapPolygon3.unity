@@ -165,7 +165,7 @@ PrefabInstance:
       objectReference: {fileID: 644203670}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_Name
-      value: PavlovPK_Enemy (1)
+      value: Enemy (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_IsActive
@@ -832,7 +832,7 @@ PrefabInstance:
       objectReference: {fileID: 644203670}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_Name
-      value: PavlovPK_Enemy
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_IsActive
@@ -984,7 +984,7 @@ PrefabInstance:
       objectReference: {fileID: 644203670}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_Name
-      value: PavlovPK_Enemy (3)
+      value: Enemy (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_IsActive
@@ -1251,7 +1251,7 @@ PrefabInstance:
       objectReference: {fileID: 644203670}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_Name
-      value: PavlovPK_Enemy (4)
+      value: Enemy (4)
       objectReference: {fileID: 0}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_IsActive
@@ -1816,7 +1816,7 @@ PrefabInstance:
       objectReference: {fileID: 644203670}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_Name
-      value: PavlovPK_Enemy (2)
+      value: Enemy (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7570224440076201623, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_RootOrder
