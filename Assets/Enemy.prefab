@@ -7836,7 +7836,7 @@ MonoBehaviour:
   killScoreGO: {fileID: 0}
   enemyCamera: {fileID: 7570224439084166855}
   distance: 100
-  checkSpaceDistance: 20
+  checkSpaceDistance: 30
   playerGO: {fileID: 0}
   checkDelay: 0.1
   attackDelay: 1

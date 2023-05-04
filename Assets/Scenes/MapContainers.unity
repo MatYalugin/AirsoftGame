@@ -351,6 +351,10 @@ PrefabInstance:
       propertyPath: killScoreGO
       value: 
       objectReference: {fileID: 1414559465}
+    - target: {fileID: 7570224440076201621, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
+      propertyPath: attackRadius
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -549,6 +553,10 @@ PrefabInstance:
       propertyPath: killScoreGO
       value: 
       objectReference: {fileID: 1414559465}
+    - target: {fileID: 7570224440076201621, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
+      propertyPath: attackRadius
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
@@ -2004,7 +2012,7 @@ PrefabInstance:
     - target: {fileID: 1127788989, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
       propertyPath: controlsTip
       value: 
-      objectReference: {fileID: 1068288825}
+      objectReference: {fileID: 1068288826}
     - target: {fileID: 1127788989, guid: 8a1e7b65b38efaa48b35bdc9562b8a8e, type: 3}
       propertyPath: playerAnimator
       value: 
@@ -2415,6 +2423,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2056245735}
     m_Modifications:
+    - target: {fileID: 139506475618294851, guid: 70c3b1ca504abb3479b85ca36cc62e70, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 254596568490827278, guid: 70c3b1ca504abb3479b85ca36cc62e70, type: 3}
       propertyPath: m_Color.b
       value: 0.83137256
@@ -2481,14 +2493,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c3b1ca504abb3479b85ca36cc62e70, type: 3}
---- !u!1 &1068288825 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6510210209946216283, guid: 70c3b1ca504abb3479b85ca36cc62e70, type: 3}
+--- !u!4 &1068288825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 139506475618294851, guid: 70c3b1ca504abb3479b85ca36cc62e70, type: 3}
   m_PrefabInstance: {fileID: 1068288824}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1068288826 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8079864971919752977, guid: 70c3b1ca504abb3479b85ca36cc62e70, type: 3}
+--- !u!1 &1068288826 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 139506477617760808, guid: 70c3b1ca504abb3479b85ca36cc62e70, type: 3}
   m_PrefabInstance: {fileID: 1068288824}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1087484109
@@ -3295,6 +3307,10 @@ PrefabInstance:
       propertyPath: killScoreGO
       value: 
       objectReference: {fileID: 1414559465}
+    - target: {fileID: 7570224440076201621, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
+      propertyPath: attackRadius
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7570224440076201622, guid: 779d98e45f2ba2247a906b3d6727cfe4, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -3446,7 +3462,7 @@ RectTransform:
   - {fileID: 285059300}
   - {fileID: 1103844630}
   - {fileID: 10785646}
-  - {fileID: 1068288826}
+  - {fileID: 1068288825}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

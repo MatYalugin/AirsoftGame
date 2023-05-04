@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     public Animator playerAnimator;
     public float Health = 1;
     public float MaxHealth = 1;
-    public Text armorText;
     public GameObject DeathMenu;
     public GameObject cheatMenu;
     public GameObject controlsTip;
