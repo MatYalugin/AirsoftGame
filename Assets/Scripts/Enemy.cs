@@ -66,7 +66,7 @@ public class Enemy : MonoBehaviour
             {
                 if (hit.transform.tag.Equals("Player"))
                 {
-                    if (Random.value < 0.3f)
+                    if (Random.value < 0.2f)
                     {
                         player.Hurt(attackDamage);
                     }
