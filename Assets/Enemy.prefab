@@ -7923,6 +7923,7 @@ MonoBehaviour:
   checkDelay: 0.1
   attackDelay: 1
   counter: 0
+  weaponHitChance: 0.35
 --- !u!195 &7570224440076201619
 NavMeshAgent:
   m_ObjectHideFlags: 0

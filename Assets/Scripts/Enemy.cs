@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
     public float counter;
     bool allowToCheckPlayer = true;
     private float ammo = 30f;
+    public float weaponHitChance = 0.35f;
     private void Start()
     {
         tag = "Enemy";
@@ -66,7 +67,7 @@ public class Enemy : MonoBehaviour
             {
                 if (hit.transform.tag.Equals("Player"))
                 {
-                    if (Random.value < 0.2f)
+                    if (Random.value < weaponHitChance)
                     {
                         player.Hurt(attackDamage);
                     }
