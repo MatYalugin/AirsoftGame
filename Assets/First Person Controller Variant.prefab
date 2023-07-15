@@ -944,7 +944,7 @@ MonoBehaviour:
   isReadyToFire: 1
   isAutomatic: 1
   fireModeChangeable: 1
-  hitChance: 0.6
+  hitChance: 0.8
 --- !u!1 &2058032589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   isReadyToFire: 1
   isAutomatic: 0
   fireModeChangeable: 0
-  hitChance: 0.3
+  hitChance: 0.4
 --- !u!1 &182874661288869492
 GameObject:
   m_ObjectHideFlags: 0
@@ -11051,7 +11051,7 @@ MonoBehaviour:
   isReadyToFire: 1
   isAutomatic: 1
   fireModeChangeable: 1
-  hitChance: 0.6
+  hitChance: 0.8
 --- !u!1 &1696878803720794261
 GameObject:
   m_ObjectHideFlags: 0
@@ -11115,7 +11115,7 @@ MonoBehaviour:
   isReadyToFire: 1
   isAutomatic: 0
   fireModeChangeable: 1
-  hitChance: 0.3
+  hitChance: 0.5
 --- !u!1 &2002327763366024379
 GameObject:
   m_ObjectHideFlags: 0
@@ -22283,7 +22283,7 @@ MonoBehaviour:
   isReadyToFire: 1
   isAutomatic: 0
   fireModeChangeable: 0
-  hitChance: 0.45
+  hitChance: 0.55
 --- !u!1 &5139751926321057441
 GameObject:
   m_ObjectHideFlags: 0
@@ -34105,7 +34105,7 @@ MonoBehaviour:
   isReadyToFire: 1
   isAutomatic: 1
   fireModeChangeable: 1
-  hitChance: 0.5
+  hitChance: 0.7
 --- !u!1 &9043954871170458936
 GameObject:
   m_ObjectHideFlags: 0
@@ -35344,7 +35344,6 @@ MonoBehaviour:
   playerAnimator: {fileID: 1127788991}
   Health: 1
   MaxHealth: 1
-  armorText: {fileID: 0}
   DeathMenu: {fileID: 0}
   cheatMenu: {fileID: 0}
   controlsTip: {fileID: 0}
